@@ -1,3 +1,4 @@
+import antiox from '../images/antiox.png';
 import {Link } from 'react-router-dom';
 
 function Navbar() {
@@ -5,7 +6,7 @@ function Navbar() {
     <>
     <header className="header">
       <div className="logo">
-        <img src="src/images/antiox.png" alt="Antixor Logo"/>
+        <img src={antiox} alt="Antixor Logo"/>
       </div>
        <div className="search-box">
         <input type="text" placeholder="Search for products, brands and more..."/>

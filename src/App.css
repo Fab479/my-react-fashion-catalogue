@@ -40,6 +40,7 @@ main {
     border-radius: 50%;
     
 }
+/*
 .kids{
     background-image: url('src/images/crew.jpg');
     width: 50%;
@@ -49,7 +50,7 @@ main {
     
     padding: 20px;  
     
-}
+}*/
 .kids,
 .woman,
 .accessories,
@@ -171,7 +172,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
 }
-
+/*
 .woman{
     background-image: url('src/images/match.jpg');
     width: 50%;
@@ -182,7 +183,8 @@ main {
     padding: 20px;  
     
     flex-wrap: wrap;
-}
+}*/
+/*
 .accessories{
     background-image: url('src/images/ready.jpg');
     width: 50%;
@@ -192,7 +194,7 @@ main {
     
     padding: 20px;  
    
-}
+}*/
 .about{
     
    .about {
@@ -457,6 +459,7 @@ main {
   }
 
 }
+/*
 .man{
     background-image: url('src/images/Gentleman.jpg');
     width: 40%;
@@ -467,8 +470,8 @@ main {
     color: white;
     padding: 20px;  
     
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap; 
+} */
 .bill {
   width: calc(50% - 10px);
 

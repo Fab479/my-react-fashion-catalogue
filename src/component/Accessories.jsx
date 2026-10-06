@@ -14,12 +14,12 @@
         we have something for everyone</p>
         </div>
       </div>
-      <div className='accessories'>
+      {/*<div className='accessories'>
        
       <h3>Up to</h3>
       <h1>50%  OFF</h1>
       <p>On Selected Items</p>
-      </div>
+      </div> */}
     </div>
 </main>
   );

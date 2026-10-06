@@ -16,12 +16,12 @@ function Kids() {
         we have something for everyone</p>
         </div>
       </div>
-      <div className='kids'>
-      {/*<img src={match} alt='match' /> */}
+      {/*<div className='kids'>
+      <img src={match} alt='match' /> 
       <h3>Up to</h3>
       <h1>50%  OFF</h1>
       <p>On Selected Items</p>
-      </div>
+      </div> */}
     </div>
     </main>
   );

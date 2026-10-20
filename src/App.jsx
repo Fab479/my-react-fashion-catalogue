@@ -5,7 +5,8 @@ import Navbar from './component/Navbar.jsx';
 import Home from './component/Home.jsx';
 import Shop from './component/Shop.jsx';
 import Women from './component/Women.jsx';
-import Men from './component/Men.jsx';
+import Cart from './component/cart.jsx'
+import Men from './component/men.jsx';
 import Kids from './component/Kids.jsx';
 import Accessories from './component/Accessories.jsx';
 import About from './component/About.jsx';
@@ -25,6 +26,7 @@ function App() {
       <Route path="/accessories" element={<Accessories />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/cart" element={<Cart />} />
     </Routes>
  </>
 

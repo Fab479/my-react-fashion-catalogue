@@ -1,5 +1,6 @@
 import antiox from '../images/antiox.png';
 import {Link } from 'react-router-dom';
+import Cart from './cart';
 
 function Navbar() {
   return (
@@ -13,9 +14,9 @@ function Navbar() {
         <button>🔍</button>
     </div>
     <div className="icons">
-        <span>♙</span>
-        <span>♡</span>
-        <span>🛒</span>
+        <Link className='icons'>♙</Link>
+        <Link className='icons'>♡</Link>
+        <Link className='icons' to='/cart'>🛒</Link>
     </div>
       </header>
     <nav>
@@ -27,6 +28,7 @@ function Navbar() {
         <Link to="/accessories">Accessories</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/cart">Cart</Link>
     </nav>
 
     </>

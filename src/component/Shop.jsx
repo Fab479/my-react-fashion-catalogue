@@ -52,9 +52,7 @@ function Shop() {
   });
 };
 
-  const handleRemoveFromCart = (item) => {
-   setCart((prev) => prev.filter((cartItems) => cartItems.id !== item.id));
-  };
+ 
   return (
     <main>
       <div className="shop-container">

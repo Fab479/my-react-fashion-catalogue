@@ -2,6 +2,9 @@
 import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 
+import Payment from './Payment';
+
+
 function Cart() {
     
   const location = useLocation();
@@ -61,12 +64,9 @@ console.log(cartItems.map(item => item.price));
 
           <Link to="/shop">Continue Shopping</Link><br />
 
-          <button className='btn'>
-             Pay {new Intl.NumberFormat('en-NG', {
-            style: 'currency',
-            currency: 'NGN',
-             }).format(total)}
-            </button>
+          
+            <Payment total={total} />
+            
         </>
       )}
     </main>
